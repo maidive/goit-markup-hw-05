@@ -585,15 +585,15 @@ color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
+  opacity: 0; 
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
 
-.modal-overlay.is-open{
+ .modal-overlay.is-open{
   opacity: 1;
   pointer-events: auto;
-}
+} 
 
 .modal{
   background-color: #fff;
@@ -604,13 +604,53 @@ color: #fff;
   max-height: 584px;
 }
 
-.close-modal-svg{
+.close-modal-svg {
   border-radius: 4px;
-width: 24px;
-height: 24px;
-background-color: #2E2F42;
+  width: 24px;
+  height: 24px;
+  background-color: #2E2F42;
+  display: flex;
 }
 
 .modal label{
   display: flex;
+  flex-direction: column;
+}
+
+.modal-form{
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+padding-left: 24px;
+}
+
+.modal-text{
+  margin-bottom:16px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.modal-textarea{
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 360px;
+height: 120px;
+}
+
+.modal-input{
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+.modal-radio{
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
