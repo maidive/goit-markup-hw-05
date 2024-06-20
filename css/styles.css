@@ -610,3 +610,7 @@ width: 24px;
 height: 24px;
 background-color: #2E2F42;
 }
+
+.modal label{
+  display: flex;
+}
