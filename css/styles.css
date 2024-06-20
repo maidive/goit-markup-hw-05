@@ -586,6 +586,13 @@ color: #fff;
   justify-content: center;
   align-items: center;
   transition: opacity 250ms ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-overlay.is-open{
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modal{
