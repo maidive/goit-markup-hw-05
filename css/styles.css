@@ -586,15 +586,15 @@ color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* opacity: 0;
-  pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
 
-/* .modal-overlay.is-open {
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
-} */
+}
 
 .modal {
   position: absolute;
