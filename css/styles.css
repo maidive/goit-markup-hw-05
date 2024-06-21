@@ -593,6 +593,7 @@ color: #fff;
 
 .modal-overlay.is-open {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
@@ -606,17 +607,49 @@ color: #fff;
   min-height: 584px;
 }
 
+.modal-start{
+  margin-top: 24px;
+}
+
 .modal-close{
   position: absolute;
   top:24px;
   right: 24px;
   border-radius: 100%;
+  fill: #2E2F42;
+}
+
+.close-modal-svg{
+  fill: #2E2F42;
+}
+
+.modal-close:hover{
+  background: #4d5ae5;
+}
+
+.modal-close:hover .close-modal-svg{
+  fill: white;
+}
+
+.modal-policy-text{
+  line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
 }
 
 .modal-title{
   max-width: 360px;
-  margin-bottom:40px;
+  margin-bottom:16px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
+
+
 
 .modal-fild{
   margin-bottom:8px;
@@ -671,6 +704,18 @@ color: #8e8f99;
 .modal-btn{
   display: block;
   margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  margin-top: 24px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  color: #fff;
+}
+
+.modal-btn:hover{
+  background: #404bbf;
 }
 
 .modal-check-text{
