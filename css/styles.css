@@ -667,3 +667,36 @@ color: #8e8f99;
   top: 50%;
   transform: translateY(-50%);
 }
+
+.modal-btn{
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-check-text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+}
+
+.modal-check-text span{
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.model-check:checked + .modal-check-text span{
+  background-color: #4d5ae5;
+  border: none;
+  fill: #f4f4fd;
+}
