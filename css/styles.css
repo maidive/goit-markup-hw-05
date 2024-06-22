@@ -648,13 +648,6 @@ color: #fff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.close-modal-svg:hover{
-  fill: #ffffff
-}
-
-.close-modal-svg:focus{
-  fill: #ffffff
-}
 
 .modal-close:hover{
   background: #404bbf;
@@ -667,7 +660,11 @@ color: #fff;
 }
 
 .modal-close:hover .close-modal-svg{
-  fill: white;
+  fill: #ffffff;
+}
+
+.modal-close:focus .close-modal-svg{
+  fill: #ffffff;
 }
 
 .modal-policy-text{
@@ -703,6 +700,7 @@ color: #4d5ae5;
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color:transparent;
 }
 
 .modal-input:focus{
@@ -734,6 +732,14 @@ color: #4d5ae5;
 
 .modal-field-wrap{
   position: relative;
+}
+
+.modal-field-textarea{
+  margin-bottom: 16px;
+}
+
+.modal-field{
+  margin-bottom:8px;
 }
 
 .modal-icon{
