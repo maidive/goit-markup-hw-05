@@ -820,10 +820,10 @@ color: #4d5ae5;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.modal-check input[type="checkbox"]:checked + span{
-  background-color: #404bbf;
+.input-class:checked + .label-class > .span-class {
+  background-color: #404BBF;
   border: none;
-  fill:#F4F4FD;
+  fill: #FFFFFF;
 }
 
 .modal-comment{
