@@ -820,12 +820,11 @@ color: #4d5ae5;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.input-class:checked + .label-class > .span-class {
+.model-check:checked + .modal-check-text > .modal-check-span {
   background-color: #404BBF;
   border: none;
   fill: #FFFFFF;
 }
-
 .modal-comment{
   margin-bottom: 16px
 }
