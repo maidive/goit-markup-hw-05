@@ -821,7 +821,7 @@ color: #4d5ae5;
 }
 
 .modal-check input[type="checkbox"]:checked + span{
-  background-color: var(--bg-color, #404bbf);
+  background-color: #404bbf;
   border: none;
   fill:#F4F4FD;
 }
