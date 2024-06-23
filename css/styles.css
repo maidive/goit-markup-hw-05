@@ -793,7 +793,6 @@ color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
 }
 
@@ -812,17 +811,19 @@ color: #4d5ae5;
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   align-items: center;
   justify-content: center;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-check input[type="checkbox"]:checked + span{
   background-color:#404bbf;
+  border: none;
+  fill:#F4F4FD;
 }
 
 .modal-comment{
