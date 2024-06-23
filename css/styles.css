@@ -823,8 +823,9 @@ color: #4d5ae5;
 .model-check:checked + .modal-check-text > .modal-check-span {
   background-color: #404BBF;
   border: none;
-  fill: #FFFFFF;
+  fill: #f4f4fd;
 }
+
 .modal-comment{
   margin-bottom: 16px
 }
